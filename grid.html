@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Grid</title>
 </head>
-<body>
+<body style="padding-bottom: 1000px;">
     <div style="display: grid;
                 grid-template-columns: 100px 100px">
         <div style="background-color: lightblue;">Div 01</div>
@@ -36,5 +36,19 @@
         <div style="background-color: lightpink">1fr</div>
         <div style="background-color: lightcoral">2fr</div>
     </div>
+
+    <div style="display: grid;
+                margin-top: 30px;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 40px;">
+        <div style="background-color: lightgreen; height: 200px;">1fr</div>
+        <div style="background-color: lightgray; height: 200px;">1fr</div>
+        <div style="background-color: lightcoral; height: 200px;">1fr</div>
+        <div style="background-color: lightcoral; height: 200px;">1fr</div>
+        <div style="background-color: lightgreen; height: 200px;">1fr</div>
+        <div style="background-color: lightgray; height: 200px;">1fr</div>
+    </div>
+
 </body>
 </html>
